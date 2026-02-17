@@ -3,13 +3,13 @@ Softwareproject by David Daniel Rosas Marquez
 
 Hello and welcome to my part of the Softwareproject. In the Following Text I'll give a brief overview of my work throughout the semester, that I did for the course "Softwareprojekt: Machinelles Learnen für Lebenswissenschaftliche Daten". But first a couple of notes: 
 
-1) This folder doesn't contain all of the scripts and files I wrote or used throughout the semester, but just the ones I thought are the most relevant to the course or the "final attempts". I'll also always specify the files that need to be run and in which order, to be able to reproduce the intended output.
+1) This folder doesn't contain all of the scripts I wrote throughout the semester, just the ones I thought are the most relevant to the course and the "final attempts" for each project. I'll also always specify the files that need to be run and in which order, and if specific folder structures are needed to be able to reproduce the intended output.
 
-2) A lot of the python scripts are extensively commented. I chose to leave the comments in, because they were part of my process to try to better understand certain machine learning concepts (As I was completely new to the topic), and to rationalize what was happening in the code. But this also means that a lot of the comments might contain unclear or outright wrong statements, a lot of typos and grammar errors, redundancy and so on. This goes especially for comments where I am trying to understand/explain certain concepts.
+2) A lot of the python scripts are extensively commented (especially for the first couple projcets). I chose to leave the comments in, because they were part of my process to try and better understand certain machine learning concepts (As I was completely new to the topic), and to rationalize what was happening in the code. But this also means that a lot of the comments might contain unclear or outright wrong statements, a lot of typos, grammar errors, redundancy and so on. This goes especially for comments where I am trying to understand/explain certain concepts.
 
-3) Some of the naming of classes and variables and the coding style can be somewhat inconsistent. I hope this doesn't cause too much confusion. 
+3) The naming conventions for classes and variables and the coding style can be somewhat inconsistent. The code structure for the projects is also somewhat messy and not necessarily optimaly modular. I hope this doesn't cause too much confusion. 
 
-4) I divided my work into blocks called "Project_x" that thematically fit together. I did this to provide an easier to follow overview of my workin this semester (but also partly because I don't fully recall what exactly I did which week).
+4) I divided my work into Projects called "Project_x" that thematically fit together. Some of them took multiple attempts or multiple weeks, but I decided to only upload the final working versions. I did this to provide an easier to follow overview of my work thoughout this semester.
 
 With this in mind now follows the Overview.
 
@@ -34,7 +34,9 @@ PROJECT 1
 #########
 
 
+difficulties:
 
+learned:
 
 
 
@@ -43,13 +45,20 @@ PROJECT 2
 #########
 
 
+difficulties:
+
+learned:
 
 
 
 #########
 PROJECT 3
 #########
-            
+
+
+difficulties:
+
+learned:
 
 
 
@@ -58,8 +67,17 @@ PROJECT 4
 #########
 
 
+difficulties:
+
+learned:
+
 
 
 #########
 PROJECT 5
 #########
+
+
+difficulties:
+
+learned:
