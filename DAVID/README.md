@@ -22,16 +22,20 @@ With this in mind now follows the Overview.
 
 # PROJECT 0
 
-The First couple of weeks for me mostly involved getting into the topic of machine learning and artificial neural networks.
+The First couple of weeks for me mostly involved getting into the topic of machine learning and artificial neural networks. For this we first implemented a simple linear regression using gradient descent, a technique also used for learning in neural networks. In the script "linear_regression.py" (can run on it's own) the idea is to interpolate some data points that follow a simple linear function with noise. Some diagrams for the loss surface are also plotted, to better be able to visualize the effects of gradient descent. 
+The other project is in the script "digit_recog.py", which contains code for a simple multilayer perceptron trained to recognize digits from the mnist_784 dataset. This project got me to learn the basics of machine learning and artificial neural networks.
+During the first couple of weeks we also had to do some reading on some more complex NODE models, for which I chose the ACE_NODE. In "ACE_NODE.odp" you can see the slides for the presentation I made on the topic.
 
 **difficulties:**  
-EVERYTHING
+EVERYTHING. Especially trying to build the sufficient understanding to begin to tackle the concepts inside the paper "ACE-NODE: Attentive Co-Evolving Neural Ordinary Differential
+Equations"
 
 **learned:**  
-- What is a neural network  
+- What is a neural network
 - Forward Pass and Backpropagation (superficially)  
 - how do neural networks "learn" using gradient descent  
-- How to code and train a basic neural network  
+- How to code and train a basic neural network
+- Basics of classification tasks
 
 ---
 
