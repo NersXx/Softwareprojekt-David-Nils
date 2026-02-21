@@ -1,0 +1,30 @@
+ACE10 | ACE10training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ACE1 | ACE1training_history.npz | acc:40, fn:40, fn_count:40, fp:40, fp_count:40, loss:40, recall:40, tn:40, tn_count:40, tp:40, tp_count:40, val_auc:40
+ACE2 | ACE2training_history.npz | acc:40, fn:40, fn_count:40, fp:40, fp_count:40, loss:40, recall:40, tn:40, tn_count:40, tp:40, tp_count:40, val_auc:40
+ACE3 | ACE3training_history.npz | acc:40, fn:40, fn_count:40, fp:40, fp_count:40, loss:40, recall:40, tn:40, tn_count:40, tp:40, tp_count:40, val_auc:40
+ACE4 | ACE4training_history.npz | acc:40, fn:40, fn_count:40, fp:40, fp_count:40, loss:40, recall:40, tn:40, tn_count:40, tp:40, tp_count:40, val_auc:40
+ACE5 | ACE5training_history.npz | acc:40, fn:40, fn_count:40, fp:40, fp_count:40, loss:40, recall:40, tn:40, tn_count:40, tp:40, tp_count:40, val_auc:40
+ACE6 | ACE6training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ACE7 | ACE7training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ACE8 | ACE8training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ACE9 | ACE9training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ATT10 | ATT10training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ATT1 | ATT1training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+ATT2 | ATT2training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+ATT3 | ATT3training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+ATT4 | ATT4training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+ATT5 | ATT5training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+ATT6 | ATT6training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ATT7 | ATT7training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ATT8 | ATT8training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+ATT9 | ATT9training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+LAT10 | LAT10training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+LAT1 | LAT1training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+LAT2 | LAT2training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+LAT3 | LAT3training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+LAT4 | LAT4training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+LAT5 | LAT5training_history.npz | acc:100, fn:100, fn_count:100, fp:100, fp_count:100, loss:100, recall:100, tn:100, tn_count:100, tp:100, tp_count:100, val_auc:100
+LAT6 | LAT6training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+LAT7 | LAT7training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+LAT8 | LAT8training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50
+LAT9 | LAT9training_history.npz | acc:50, avg_loss:50, f1:50, fn:50, fn_count:50, fp:50, fp_count:50, recall:50, time:50, tn:50, tn_count:50, tp:50, tp_count:50

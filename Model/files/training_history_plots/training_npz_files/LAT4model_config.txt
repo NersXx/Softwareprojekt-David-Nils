@@ -1,0 +1,6 @@
+Seed: 1770577378
+Hidden_Dim,128
+Learning_Rate,0.001
+Epochs,100
+VectorField_Depth,3
+VectorField_Width,50

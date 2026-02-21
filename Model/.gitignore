@@ -1,0 +1,8 @@
+# Ignore large/generated data
+files/npz_dir/
+files/B/
+__pycache__/
+*.pyc
+.DS_Store
+del/.bash_history
+del/.profile
