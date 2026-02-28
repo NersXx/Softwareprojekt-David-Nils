@@ -1,7 +1,3 @@
-# ACE_NODEv43.py
-# Full implementation of the Dual-ODE RNN (ACE Architecture)
-# Compatible with ACE_NODEoptimized.py
-
 import typing as tp
 import equinox as eqx
 import jax

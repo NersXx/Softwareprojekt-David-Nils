@@ -1,4 +1,3 @@
-# ode_rnn_spiral_fixed_full.py
 import time
 import numpy as np
 import jax
