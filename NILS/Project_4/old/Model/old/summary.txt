@@ -1,0 +1,13 @@
+ASS1 | ASS1training_history.npz | acc:40, fn:40, fp:40, loss:40, recall:40, tn:40, tp:40, val_auc:40
+ASS2 | ASS2training_history.npz | acc:40, fn:40, fp:40, loss:40, recall:40, tn:40, tp:40, val_auc:40
+ASS4 | ASS4training_history.npz | acc:40, fn:40, fp:40, loss:40, recall:40, tn:40, tp:40, val_auc:40
+ASS5 | ASS5training_history.npz | acc:40, fn:40, fp:40, loss:40, recall:40, tn:40, tp:40, val_auc:40
+ATT1 | ATT1training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+ATT2 | ATT2training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+ATT3 | ATT3training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+ATT4 | ATT4training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+ATT5 | ATT5training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+LAT1 | LAT1training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+LAT2 | LAT2training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+LAT3 | LAT3training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100
+LAT5 | LAT5training_history.npz | acc:100, fn:100, fp:100, loss:100, recall:100, tn:100, tp:100, val_auc:100

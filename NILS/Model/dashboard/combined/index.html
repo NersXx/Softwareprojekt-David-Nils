@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Training History Dashboard</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 24px; color: #1b1b1b; background: #f7f3ee; }
+    h1 { margin-bottom: 8px; }
+    .section { margin-top: 28px; padding: 16px; background: #ffffff; border: 1px solid #e6dccf; border-radius: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    img { width: 100%; height: auto; border: 1px solid #e6dccf; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #e6dccf; padding: 6px 8px; text-align: left; }
+    th { background: #efe6da; }
+    code { background: #efe6da; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Training History Dashboard</h1>
+  <p>Models: ACE, ATT, LAT</p>
+  <div class="section">
+    <h2>Run Overview</h2>
+    <table>
+      <tr><th>Model</th><th>Run</th><th>NPZ</th><th>Config</th></tr>
+      <tr><td>ACE</td><td>1</td><td>ACE1training_history.npz</td><td>ACE1model_config.txt</td></tr>
+      <tr><td>ACE</td><td>2</td><td>ACE2training_history.npz</td><td>ACE2model_config.txt</td></tr>
+      <tr><td>ACE</td><td>3</td><td>ACE3training_history.npz</td><td>ACE3model_config.txt</td></tr>
+      <tr><td>ACE</td><td>4</td><td>ACE4training_history.npz</td><td>ACE4model_config.txt</td></tr>
+      <tr><td>ACE</td><td>5</td><td>ACE5training_history.npz</td><td>ACE5model_config.txt</td></tr>
+      <tr><td>ACE</td><td>6</td><td>ACE6training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ACE</td><td>7</td><td>ACE7training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ACE</td><td>8</td><td>ACE8training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ACE</td><td>9</td><td>ACE9training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ACE</td><td>10</td><td>ACE10training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ATT</td><td>1</td><td>ATT1training_history.npz</td><td>ATT1model_config.txt</td></tr>
+      <tr><td>ATT</td><td>2</td><td>ATT2training_history.npz</td><td>ATT2model_config.txt</td></tr>
+      <tr><td>ATT</td><td>3</td><td>ATT3training_history.npz</td><td>ATT3model_config.txt</td></tr>
+      <tr><td>ATT</td><td>4</td><td>ATT4training_history.npz</td><td>ATT4model_config.txt</td></tr>
+      <tr><td>ATT</td><td>5</td><td>ATT5training_history.npz</td><td>ATT5model_config.txt</td></tr>
+      <tr><td>ATT</td><td>6</td><td>ATT6training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ATT</td><td>7</td><td>ATT7training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ATT</td><td>8</td><td>ATT8training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ATT</td><td>9</td><td>ATT9training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>ATT</td><td>10</td><td>ATT10training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>LAT</td><td>1</td><td>LAT1training_history.npz</td><td>LAT1model_config.txt</td></tr>
+      <tr><td>LAT</td><td>2</td><td>LAT2training_history.npz</td><td>LAT2model_config.txt</td></tr>
+      <tr><td>LAT</td><td>3</td><td>LAT3training_history.npz</td><td>LAT3model_config.txt</td></tr>
+      <tr><td>LAT</td><td>4</td><td>LAT4training_history.npz</td><td>LAT4model_config.txt</td></tr>
+      <tr><td>LAT</td><td>5</td><td>LAT5training_history.npz</td><td>LAT5model_config.txt</td></tr>
+      <tr><td>LAT</td><td>6</td><td>LAT6training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>LAT</td><td>7</td><td>LAT7training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>LAT</td><td>8</td><td>LAT8training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>LAT</td><td>9</td><td>LAT9training_history.npz</td><td>(missing)</td></tr>
+      <tr><td>LAT</td><td>10</td><td>LAT10training_history.npz</td><td>(missing)</td></tr>
+    </table>
+  </div>
+  <div class="section">
+    <h2>NPZ Summary</h2>
+    <p>See <code>summary.txt</code> for metric lengths per run.</p>
+  </div>
+  <div class="section">
+    <h2>Boxplots (model comparison)</h2>
+    <div class="grid">
+      <div><img src="boxplot_acc.png" alt="boxplot_acc.png"></div>
+      <div><img src="boxplot_avg_loss.png" alt="boxplot_avg_loss.png"></div>
+      <div><img src="boxplot_f1.png" alt="boxplot_f1.png"></div>
+      <div><img src="boxplot_fn.png" alt="boxplot_fn.png"></div>
+      <div><img src="boxplot_fn_count.png" alt="boxplot_fn_count.png"></div>
+      <div><img src="boxplot_fp.png" alt="boxplot_fp.png"></div>
+      <div><img src="boxplot_fp_count.png" alt="boxplot_fp_count.png"></div>
+      <div><img src="boxplot_loss.png" alt="boxplot_loss.png"></div>
+      <div><img src="boxplot_recall.png" alt="boxplot_recall.png"></div>
+      <div><img src="boxplot_time.png" alt="boxplot_time.png"></div>
+      <div><img src="boxplot_tn.png" alt="boxplot_tn.png"></div>
+      <div><img src="boxplot_tn_count.png" alt="boxplot_tn_count.png"></div>
+      <div><img src="boxplot_tp.png" alt="boxplot_tp.png"></div>
+      <div><img src="boxplot_tp_count.png" alt="boxplot_tp_count.png"></div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Mean Curves (per metric)</h2>
+    <div class="grid">
+      <div><img src="mean_acc.png" alt="mean_acc.png"></div>
+      <div><img src="mean_avg_loss.png" alt="mean_avg_loss.png"></div>
+      <div><img src="mean_f1.png" alt="mean_f1.png"></div>
+      <div><img src="mean_fn.png" alt="mean_fn.png"></div>
+      <div><img src="mean_fn_count.png" alt="mean_fn_count.png"></div>
+      <div><img src="mean_fp.png" alt="mean_fp.png"></div>
+      <div><img src="mean_fp_count.png" alt="mean_fp_count.png"></div>
+      <div><img src="mean_loss.png" alt="mean_loss.png"></div>
+      <div><img src="mean_recall.png" alt="mean_recall.png"></div>
+      <div><img src="mean_time.png" alt="mean_time.png"></div>
+      <div><img src="mean_tn.png" alt="mean_tn.png"></div>
+      <div><img src="mean_tn_count.png" alt="mean_tn_count.png"></div>
+      <div><img src="mean_tp.png" alt="mean_tp.png"></div>
+      <div><img src="mean_tp_count.png" alt="mean_tp_count.png"></div>
+      <div><img src="mean_val_auc.png" alt="mean_val_auc.png"></div>
+    </div>
+  </div>
+</body>
+</html>
